@@ -1,0 +1,119 @@
+:root {
+  --light-blue: #adefd1;
+  --dark-blue: #00203f;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: inherit;
+  background-color: var(--light-blue);
+}
+
+/* you can find starter code in my github */
+/* mentioned in the description */
+/* let's get started */
+
+.letter-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.letter {
+  font-size: 3rem;
+  color: var(--dark-blue);
+  text-shadow: 0 1rem 1.8rem var(--dark-blue);
+}
+
+.multiplyByOne {
+  animation: multiplyByOneMoveDown 2s ease infinite;
+}
+
+@keyframes multiplyByOneMoveDown {
+  0% {
+    transform: translateY(-1vh) rotate(40deg);
+  }
+
+  100% {
+    transform: translateY(95vh) scale(1.1);
+  }
+}
+
+/* Done */
+
+.multiplyByTwo {
+  animation: multiplyByTwoMoveDown 2s ease infinite 0.4s;
+}
+
+@keyframes multiplyByTwoMoveDown {
+  0% {
+    transform: translateY(-1vh) rotate(-60deg);
+  }
+
+  100% {
+    transform: translateY(95vh) scale(1.3) rotate(60deg);
+  }
+}
+
+/* DONE */
+
+.multiplyByThree {
+  animation: multiplyByThreeMoveDown 2s ease infinite 0.8s;
+}
+
+@keyframes multiplyByThreeMoveDown {
+  0% {
+    transform: translateY(-1vh) rotate(70deg);
+  }
+
+  100% {
+    transform: translateY(95vh) scale(1.1) rotate(70deg);
+  }
+}
+
+/* Done */
+
+.multiplyByFour {
+  animation: multiplyByFourMoveDown 2s ease infinite 1.2s;
+}
+
+@keyframes multiplyByFourMoveDown {
+  0% {
+    transform: translateY(-1vh) rotate(-285deg);
+  }
+
+  100% {
+    transform: translateY(95vh) scale(1.3) rotate(50deg);
+  }
+}
+
+/* DONE */
+
+.multiplyByFive {
+  animation: multiplyByFiveMoveDown 2s ease infinite 1.6s;
+}
+
+@keyframes multiplyByFiveMoveDown {
+  0% {
+    transform: translateY(-1vh) rotate(-185deg);
+  }
+
+  100% {
+    transform: translateY(95vh) scale(1.1) rotate(0);
+  }
+}
+
+/* Done */
+
+/* If you want to see more content from me, Please subscribe. */
+/* Have a great time. */
